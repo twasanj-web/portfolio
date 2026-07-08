@@ -437,3 +437,35 @@ body::before {
     display: none;
   }
 }
+
+/* ---------- Task Monster Gallery ---------- */
+/* ---------- Task Monster Gallery ---------- */
+
+.mobile-gallery{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.phone-shot{
+    width:260px;
+    height:560px;
+    overflow:hidden;
+    border-radius:28px;
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+}
+
+.phone-shot img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:top;
+    transition:.3s;
+}
+
+.phone-shot:hover img{
+    transform:scale(1.03);
+}
